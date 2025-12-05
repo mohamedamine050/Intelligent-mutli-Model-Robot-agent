@@ -8,7 +8,7 @@ Panels:
         - /Status1
         - /Grid1
         - /RobotModel1
-        - /RobotModel1/Mass Properties1
+        - /RobotModel1/Description Topic1
       Splitter Ratio: 0.5
     Tree Height: 708
   - Class: rviz_common/Selection
@@ -52,7 +52,7 @@ Visualization Manager:
       Value: true
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
-      Collision Enabled: true
+      Collision Enabled: false
       Description File: ""
       Description Source: Topic
       Description Topic:
@@ -60,14 +60,68 @@ Visualization Manager:
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: ""
+        Value: /robot_description
       Enabled: true
       Links:
         All Links Enabled: true
         Expand Joint Details: false
         Expand Link Details: false
         Expand Tree: false
-        Link Tree Style: ""
+        Link Tree Style: Links in Alphabetic Order
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_left_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        camera_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_rgb_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        camera_right_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        caster_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        left_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        right_wheel_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        ultrasonic_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
       Mass Properties:
         Inertia: true
         Mass: true
@@ -77,63 +131,19 @@ Visualization Manager:
       Value: true
       Visual Enabled: true
     - Class: rviz_default_plugins/TF
-      Enabled: true
+      Enabled: false
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base_footprint:
-          Value: true
-        base_link:
-          Value: true
-        camera_depth_frame:
-          Value: true
-        camera_left_frame:
-          Value: true
-        camera_link:
-          Value: true
-        camera_optical_frame:
-          Value: true
-        camera_rgb_frame:
-          Value: true
-        camera_right_frame:
-          Value: true
-        caster_link:
-          Value: true
-        left_wheel_link:
-          Value: true
-        right_wheel_link:
-          Value: true
-        ultrasonic_link:
-          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: false
       Tree:
-        base_footprint:
-          base_link:
-            camera_link:
-              camera_depth_frame:
-                {}
-              camera_left_frame:
-                {}
-              camera_optical_frame:
-                {}
-              camera_rgb_frame:
-                {}
-              camera_right_frame:
-                {}
-            caster_link:
-              {}
-            left_wheel_link:
-              {}
-            right_wheel_link:
-              {}
-            ultrasonic_link:
-              {}
+        {}
       Update Interval: 0
-      Value: true
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -180,7 +190,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 20.55423927307129
+      Distance: 5.641341209411621
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -195,10 +205,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7853981852531433
+      Pitch: 0.6447967290878296
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz_default_plugins)
-      Yaw: 0.7853981852531433
+      Yaw: 0.8485836386680603
     Saved: ~
 Window Geometry:
   Displays:
