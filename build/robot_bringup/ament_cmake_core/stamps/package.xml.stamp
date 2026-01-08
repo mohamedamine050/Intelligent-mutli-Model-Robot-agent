@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_bringup</name>
+  <version>0.0.0</version>
+  <description>Master bringup package for the R2D2 autonomous robot</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- All robot packages -->
+  <exec_depend>robot_description</exec_depend>
+  <exec_depend>robot_msgs</exec_depend>
+  <exec_depend>robot_control</exec_depend>
+  <exec_depend>robot_sensors</exec_depend>
+  <exec_depend>robot_slam</exec_depend>
+  <exec_depend>robot_navigation</exec_depend>
+
+  <!-- Launch dependencies -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <!-- Visualization -->
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>rqt</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

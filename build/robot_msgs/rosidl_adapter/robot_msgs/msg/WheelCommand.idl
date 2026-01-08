@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_msgs/msg/WheelCommand.msg
+// generated code does not contain a copyright notice
+
+
+module robot_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Command velocities for left and right wheels" "\n"
+      "Units: rad/s (angular velocity) or m/s (linear velocity)")
+    struct WheelCommand {
+      float left_velocity;
+
+      float right_velocity;
+    };
+  };
+};

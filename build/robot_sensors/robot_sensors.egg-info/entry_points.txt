@@ -1,0 +1,5 @@
+[console_scripts]
+esp32_cam_node = robot_sensors.esp32_cam_node:main
+stereo_depth_node = robot_sensors.stereo_depth_node:main
+ultrasonic_node = robot_sensors.ultrasonic_node:main
+

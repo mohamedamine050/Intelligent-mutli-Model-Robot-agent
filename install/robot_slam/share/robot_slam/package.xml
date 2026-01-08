@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robot_slam</name>
+  <version>0.0.0</version>
+  <description>SLAM (Simultaneous Localization and Mapping) for the robot</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- SLAM Toolbox dependency -->
+  <exec_depend>slam_toolbox</exec_depend>
+  
+  <!-- For visualization -->
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

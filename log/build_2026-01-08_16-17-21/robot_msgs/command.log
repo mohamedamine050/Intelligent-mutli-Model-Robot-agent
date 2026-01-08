@@ -1,0 +1,4 @@
+Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs': /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs -- -j16 -l16
+Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs' returned '0': /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs -- -j16 -l16
+Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs': /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs
+Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs' returned '0': /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_msgs

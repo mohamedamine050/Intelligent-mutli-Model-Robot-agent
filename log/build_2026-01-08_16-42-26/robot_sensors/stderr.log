@@ -1,0 +1,5 @@
+  File "/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/python3.10/site-packages/robot_sensors/ultrasonic_node.py", line 70
+    self.get_logger().warn('Serial not connected, attempting reconnect... ', throttle_duration_sec=5. 0)
+                                                                                                   ^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

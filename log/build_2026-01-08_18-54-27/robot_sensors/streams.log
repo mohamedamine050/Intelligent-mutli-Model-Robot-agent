@@ -1,0 +1,31 @@
+[0.475s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_sensors': PYTHONPATH=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensors build --build-base /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_sensors/build install --record /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_sensors/install.log --single-version-externally-managed install_data
+[0.625s] running egg_info
+[0.626s] writing ../../build/robot_sensors/robot_sensors.egg-info/PKG-INFO
+[0.627s] writing dependency_links to ../../build/robot_sensors/robot_sensors.egg-info/dependency_links.txt
+[0.627s] writing entry points to ../../build/robot_sensors/robot_sensors.egg-info/entry_points.txt
+[0.627s] writing requirements to ../../build/robot_sensors/robot_sensors.egg-info/requires.txt
+[0.627s] writing top-level names to ../../build/robot_sensors/robot_sensors.egg-info/top_level.txt
+[0.629s] reading manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+[0.629s] writing manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+[0.630s] running build
+[0.630s] running build_py
+[0.630s] running install
+[0.630s] running install_lib
+[0.631s] running install_data
+[0.631s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/launch
+[0.631s] copying launch/depth_to_scan.launch.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/launch
+[0.632s] copying launch/stereo_depth.launch.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/launch
+[0.633s] copying launch/ultrasonic.launch.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/launch
+[0.633s] copying launch/esp32_cameras.launch.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/launch
+[0.633s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/config
+[0.633s] copying config/sensors_params.yaml -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/config
+[0.634s] copying config/setero_calibration.yaml -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/share/robot_sensors/config
+[0.634s] running install_egg_info
+[0.636s] removing '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/python3.10/site-packages/robot_sensors-0.0.0-py3.10.egg-info' (and everything under it)
+[0.636s] Copying ../../build/robot_sensors/robot_sensors.egg-info to /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/python3.10/site-packages/robot_sensors-0.0.0-py3.10.egg-info
+[0.637s] running install_scripts
+[0.652s] Installing esp32_cam_node script to /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/robot_sensors
+[0.652s] Installing stereo_depth_node script to /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/robot_sensors
+[0.653s] Installing ultrasonic_node script to /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/robot_sensors
+[0.653s] writing list of installed files to '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_sensors/install.log'
+[0.673s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_sensors' returned '0': PYTHONPATH=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensors build --build-base /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_sensors/build install --record /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_sensors/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_msgs",
+  "non_idl_tuples": [
+    "/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_msgs:msg/WheelCommand.msg",
+    "/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_msgs:msg/Encoder.msg"
+  ]
+}

@@ -1,0 +1,43 @@
+[0.560s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_control': PYTHONPATH=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build install --record /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/install.log --single-version-externally-managed install_data
+[0.692s] running egg_info
+[0.693s] creating ../../build/robot_control/robot_control.egg-info
+[0.693s] writing ../../build/robot_control/robot_control.egg-info/PKG-INFO
+[0.693s] writing dependency_links to ../../build/robot_control/robot_control.egg-info/dependency_links.txt
+[0.693s] writing entry points to ../../build/robot_control/robot_control.egg-info/entry_points.txt
+[0.693s] writing requirements to ../../build/robot_control/robot_control.egg-info/requires.txt
+[0.694s] writing top-level names to ../../build/robot_control/robot_control.egg-info/top_level.txt
+[0.694s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.695s] reading manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.695s] writing manifest file '../../build/robot_control/robot_control.egg-info/SOURCES.txt'
+[0.696s] running build
+[0.696s] running build_py
+[0.696s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build
+[0.696s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib
+[0.696s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control
+[0.696s] copying robot_control/safety_mux.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control
+[0.696s] copying robot_control/wheel_odom.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control
+[0.696s] copying robot_control/wheel_driver.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control
+[0.696s] copying robot_control/__init__.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control
+[0.696s] running install
+[0.697s] running install_lib
+[0.697s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control
+[0.697s] copying /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control/safety_mux.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control
+[0.697s] copying /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control/wheel_odom.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control
+[0.697s] copying /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control/wheel_driver.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control
+[0.697s] copying /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build/lib/robot_control/__init__.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control
+[0.698s] byte-compiling /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control/safety_mux.py to safety_mux.cpython-310.pyc
+[0.698s] byte-compiling /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control/wheel_odom.py to wheel_odom.cpython-310.pyc
+[0.700s] byte-compiling /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control/wheel_driver.py to wheel_driver.cpython-310.pyc
+[0.700s]   File "/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control/wheel_driver.py", line 82
+[0.700s]     v_left = v - (w * self.wheel_separation / 2. 0)
+[0.700s]                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0.700s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[0.700s] 
+[0.700s] byte-compiling /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control/__init__.py to __init__.cpython-310.pyc
+[0.700s] running install_data
+[0.700s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/share/ament_index
+[0.701s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/share/ament_index/resource_index
+[0.701s] creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/share/ament_index/resource_index/packages
+[0.701s] error: can't copy 'package. xml': doesn't exist or not a regular file
+[0.701s] copying resource/robot_control -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/share/ament_index/resource_index/packages
+[0.713s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_control' returned '1': PYTHONPATH=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_control build --build-base /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/build install --record /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_control/install.log --single-version-externally-managed install_data

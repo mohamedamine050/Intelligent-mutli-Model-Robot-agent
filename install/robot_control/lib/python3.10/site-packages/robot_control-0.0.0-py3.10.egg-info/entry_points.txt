@@ -1,0 +1,5 @@
+[console_scripts]
+safety_mux = robot_control.safety_mux:main
+wheel_driver = robot_control.wheel_driver:main
+wheel_odom = robot_control.wheel_odom:main
+

@@ -1,0 +1,47 @@
+[0.024s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description': CMAKE_PREFIX_PATH=/home/pc/projects/install/wheel-control:/opt/ros/humble /usr/bin/cmake /home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_description -DCMAKE_INSTALL_PREFIX=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description
+[0.324s] -- The C compiler identification is GNU 11.4.0
+[1.052s] -- The CXX compiler identification is GNU 11.4.0
+[1.637s] -- Detecting C compiler ABI info
+[1.790s] -- Detecting C compiler ABI info - done
+[1.794s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.795s] -- Detecting C compile features
+[1.796s] -- Detecting C compile features - done
+[1.809s] -- Detecting CXX compiler ABI info
+[1.982s] -- Detecting CXX compiler ABI info - done
+[1.987s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.988s] -- Detecting CXX compile features
+[1.988s] -- Detecting CXX compile features - done
+[2.001s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.128s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.284s] -- Configuring done
+[2.286s] -- Generating done
+[2.287s] -- Build files have been written to: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description
+[2.291s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/home/pc/projects/install/wheel-control:/opt/ros/humble /usr/bin/cmake /home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_description -DCMAKE_INSTALL_PREFIX=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description
+[2.293s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description': CMAKE_PREFIX_PATH=/home/pc/projects/install/wheel-control:/opt/ros/humble /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description -- -j16 -l16
+[2.320s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/home/pc/projects/install/wheel-control:/opt/ros/humble /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description -- -j16 -l16
+[2.327s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description': CMAKE_PREFIX_PATH=/home/pc/projects/install/wheel-control:/opt/ros/humble /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description
+[2.334s] -- Install configuration: ""
+[2.334s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/urdf
+[2.335s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/urdf/camera.xacro
+[2.335s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/urdf/wheel.xacro
+[2.336s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/urdf/robot.urdf.xacro
+[2.336s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/launch
+[2.337s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/launch/description.launch.py
+[2.337s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/rviz
+[2.338s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/rviz/robot_view.rviz
+[2.339s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[2.339s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[2.339s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[2.339s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[2.339s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/environment/path.sh
+[2.340s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/environment/path.dsv
+[2.340s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/local_setup.bash
+[2.340s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/local_setup.sh
+[2.340s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/local_setup.zsh
+[2.340s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/local_setup.dsv
+[2.340s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/package.dsv
+[2.341s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[2.341s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[2.341s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[2.341s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_description/share/robot_description/package.xml
+[2.343s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/home/pc/projects/install/wheel-control:/opt/ros/humble /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_description
