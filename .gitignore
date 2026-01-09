@@ -1,0 +1,10 @@
+build/
+install/
+log/
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+audio.wav
+=0.57.1
+
