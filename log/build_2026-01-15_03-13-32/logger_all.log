@@ -1,0 +1,221 @@
+[0.201s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'robot_brain_bridge', '--event-handlers', 'console_direct+']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['robot_brain_bridge'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x763827632bf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x763827632470>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x763827632470>>, mixin_verb=('build',))
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.467s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_brain_bridge) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_brain_bridge' with type 'ros.ament_python' and name 'robot_brain_bridge'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_bringup) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_control) by extension 'ros'
+[0.484s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_control' with type 'ros.ament_python' and name 'robot_control'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_description) by extension 'ros'
+[0.485s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_msgs) by extension 'ros'
+[0.486s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_msgs' with type 'ros.ament_cmake' and name 'robot_msgs'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_navigation) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_navigation' with type 'ros.ament_cmake' and name 'robot_navigation'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_sensors) by extension 'ros'
+[0.488s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_sensors' with type 'ros.ament_python' and name 'robot_sensors'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(navigation-system/robot_slam) by extension 'ros'
+[0.489s] DEBUG:colcon.colcon_core.package_identification:Package 'navigation-system/robot_slam' with type 'ros.ament_cmake' and name 'robot_slam'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.489s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.518s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_description' in 'navigation-system/robot_description'
+[0.518s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_msgs' in 'navigation-system/robot_msgs'
+[0.518s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_navigation' in 'navigation-system/robot_navigation'
+[0.518s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_sensors' in 'navigation-system/robot_sensors'
+[0.518s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_slam' in 'navigation-system/robot_slam'
+[0.518s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_control' in 'navigation-system/robot_control'
+[0.518s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_bringup' in 'navigation-system/robot_bringup'
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.521s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/wheel-control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.523s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install
+[0.524s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'cmake_target' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.555s] Level 5:colcon.colcon_core.verb:set package 'robot_brain_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.555s] DEBUG:colcon.colcon_core.verb:Building package 'robot_brain_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge', 'merge_install': False, 'path': '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_brain_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.555s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.556s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_brain_bridge' with build type 'ament_python'
+[0.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_brain_bridge', 'ament_prefix_path')
+[0.562s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/hook/ament_prefix_path.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/hook/ament_prefix_path.dsv'
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/hook/ament_prefix_path.sh'
+[0.565s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.565s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.717s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_brain_bridge'
+[0.717s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_brain_bridge': PYTHONPATH=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_brain_bridge build --build-base /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build install --record /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/install.log --single-version-externally-managed install_data
+[1.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_brain_bridge' returned '0': PYTHONPATH=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_brain_bridge build --build-base /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build install --record /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/install.log --single-version-externally-managed install_data
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge' for CMake module files
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge' for CMake config files
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/bin'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/pkgconfig/robot_brain_bridge.pc'
+[1.226s] Level 1:colcon.colcon_core.environment:checking '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages'
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_brain_bridge', 'pythonpath')
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/hook/pythonpath.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/hook/pythonpath.dsv'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/hook/pythonpath.sh'
+[1.227s] Level 1:colcon.colcon_core.environment:checking '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/bin'
+[1.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_brain_bridge)
+[1.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/package.ps1'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/package.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/package.sh'
+[1.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/package.bash'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge/package.zsh'
+[1.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/colcon-core/packages/robot_brain_bridge)
+[1.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.232s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.281s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.281s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.281s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.281s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/local_setup.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/_local_setup_util_ps1.py'
+[1.284s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/setup.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/local_setup.sh'
+[1.286s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/_local_setup_util_sh.py'
+[1.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/setup.sh'
+[1.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/local_setup.bash'
+[1.288s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/setup.bash'
+[1.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/local_setup.zsh'
+[1.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/setup.zsh'

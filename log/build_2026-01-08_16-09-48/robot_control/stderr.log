@@ -1,6 +1,0 @@
-  File "/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control/lib/python3.10/site-packages/robot_control/wheel_driver.py", line 82
-    v_left = v - (w * self.wheel_separation / 2. 0)
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-
-error: can't copy 'package. xml': doesn't exist or not a regular file

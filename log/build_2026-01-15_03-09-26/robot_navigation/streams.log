@@ -1,0 +1,44 @@
+[0.025s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/wheel-control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation
+[0.355s] -- The C compiler identification is GNU 11.4.0
+[1.036s] -- The CXX compiler identification is GNU 11.4.0
+[1.608s] -- Detecting C compiler ABI info
+[1.821s] -- Detecting C compiler ABI info - done
+[1.826s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.827s] -- Detecting C compile features
+[1.828s] -- Detecting C compile features - done
+[1.831s] -- Detecting CXX compiler ABI info
+[1.984s] -- Detecting CXX compiler ABI info - done
+[1.988s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.989s] -- Detecting CXX compile features
+[1.989s] -- Detecting CXX compile features - done
+[1.998s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.116s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.250s] -- Configuring done
+[2.252s] -- Generating done
+[2.253s] -- Build files have been written to: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation
+[2.256s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/wheel-control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/opt/ros/humble /usr/bin/cmake /home/pc/projects/Intelligent-mutli-Model-Robot-agent/navigation-system/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation
+[2.257s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/wheel-control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation -- -j16 -l16
+[2.283s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/wheel-control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/opt/ros/humble /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation -- -j16 -l16
+[2.289s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/wheel-control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation
+[2.294s] -- Install configuration: ""
+[2.294s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/launch
+[2.294s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/launch/navigation_with_rviz.luanch.py
+[2.295s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/launch/navigation.launch.py
+[2.295s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/config
+[2.295s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/config/nav2_params.yaml
+[2.296s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
+[2.296s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation
+[2.296s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh
+[2.296s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv
+[2.297s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/environment/path.sh
+[2.297s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/environment/path.dsv
+[2.297s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/local_setup.bash
+[2.297s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/local_setup.sh
+[2.297s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/local_setup.zsh
+[2.297s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/local_setup.dsv
+[2.297s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/package.dsv
+[2.298s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation
+[2.298s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake
+[2.298s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake
+[2.298s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/package.xml
+[2.300s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/wheel-control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/opt/ros/humble /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_navigation

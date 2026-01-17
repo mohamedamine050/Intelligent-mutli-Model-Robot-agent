@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robot_brain_bridge/robot_brain_bridge.egg-info
+writing ../../build/robot_brain_bridge/robot_brain_bridge.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_brain_bridge/robot_brain_bridge.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_brain_bridge/robot_brain_bridge.egg-info/entry_points.txt
+writing requirements to ../../build/robot_brain_bridge/robot_brain_bridge.egg-info/requires.txt
+writing top-level names to ../../build/robot_brain_bridge/robot_brain_bridge.egg-info/top_level.txt
+writing manifest file '../../build/robot_brain_bridge/robot_brain_bridge.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_brain_bridge/robot_brain_bridge.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_brain_bridge/robot_brain_bridge.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build
+creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build/lib
+creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build/lib/robot_brain_bridge
+copying robot_brain_bridge/__init__.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build/lib/robot_brain_bridge
+copying robot_brain_bridge/orion_bridge_node.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build/lib/robot_brain_bridge
+running install
+running install_lib
+creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages/robot_brain_bridge
+copying /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build/lib/robot_brain_bridge/__init__.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages/robot_brain_bridge
+copying /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/build/lib/robot_brain_bridge/orion_bridge_node.py -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages/robot_brain_bridge
+byte-compiling /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages/robot_brain_bridge/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages/robot_brain_bridge/orion_bridge_node.py to orion_bridge_node.cpython-310.pyc
+running install_data
+creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/ament_index
+creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/ament_index/resource_index
+creating /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/ament_index/resource_index/packages
+copying resource/robot_brain_bridge -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/ament_index/resource_index/packages
+copying package.xml -> /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/share/robot_brain_bridge
+running install_egg_info
+Copying ../../build/robot_brain_bridge/robot_brain_bridge.egg-info to /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/python3.10/site-packages/robot_brain_bridge-0.0.0-py3.10.egg-info
+running install_scripts
+Installing orion_bridge_node script to /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge/lib/robot_brain_bridge
+writing list of installed files to '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_brain_bridge/install.log'

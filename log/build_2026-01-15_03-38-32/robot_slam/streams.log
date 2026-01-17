@@ -1,0 +1,27 @@
+[0.201s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam -- -j16 -l16
+[0.374s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam -- -j16 -l16
+[0.374s] Invoking command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam
+[0.385s] -- Install configuration: ""
+[0.386s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/launch
+[0.386s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/launch/slam_with_rviz.launch.py
+[0.386s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/launch/slam.launch.py
+[0.386s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/config
+[0.386s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/config/slam_params.yaml
+[0.386s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/config/slam_view.rviz
+[0.386s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/maps
+[0.386s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/ament_index/resource_index/package_run_dependencies/robot_slam
+[0.387s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/ament_index/resource_index/parent_prefix_path/robot_slam
+[0.387s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/environment/ament_prefix_path.sh
+[0.387s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/environment/ament_prefix_path.dsv
+[0.387s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/environment/path.sh
+[0.388s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/environment/path.dsv
+[0.388s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/local_setup.bash
+[0.388s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/local_setup.sh
+[0.388s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/local_setup.zsh
+[0.390s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/local_setup.dsv
+[0.390s] -- Installing: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/package.dsv
+[0.390s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/ament_index/resource_index/packages/robot_slam
+[0.391s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/cmake/robot_slamConfig.cmake
+[0.391s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/cmake/robot_slamConfig-version.cmake
+[0.391s] -- Up-to-date: /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_slam/share/robot_slam/package.xml
+[0.425s] Invoked command in '/home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_sensors:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_control:/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_brain_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pc/projects/Intelligent-mutli-Model-Robot-agent/build/robot_slam

@@ -1,0 +1,3 @@
+[console_scripts]
+orion_bridge_node = robot_brain_bridge.orion_bridge_node:main
+

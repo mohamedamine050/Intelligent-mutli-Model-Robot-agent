@@ -1,4 +1,4 @@
-/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/launch/navigation_with_rviz.luanch.py
+/home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/launch/navigation_with_rviz.launch.py
 /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/launch/navigation.launch.py
 /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/robot_navigation/config/nav2_params.yaml
 /home/pc/projects/Intelligent-mutli-Model-Robot-agent/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
